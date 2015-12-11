@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridLayout"
+        android:layout_below="@+id/time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="@drawable/densmore1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/jolie1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat3"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@drawable/pitt1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat4"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/depp1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat5"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@drawable/cage1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat6"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:background="@drawable/johansson1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat7"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:background="@drawable/swift1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat8"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:background="@drawable/cruise1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat9"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:background="@drawable/smith1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat10"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/gate1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat11"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:background="@drawable/zuckerberg1" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/cat12"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:background="@drawable/jobs1" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/gameTitle"
+        android:layout_toStartOf="@+id/gameTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ScoreTitle"
+        android:id="@+id/Score"
+        android:textSize="28dp"
+        android:layout_below="@+id/Find"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/scorevalue"
+        android:focusableInTouchMode="true"
+        android:text="0"
+        android:textSize="28dp"
+        android:layout_below="@+id/findname"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/FindTitle"
+        android:id="@+id/Find"
+        android:layout_alignLeft="@+id/Score"
+        android:layout_alignStart="@+id/Score"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" "
+        android:id="@+id/textView4"
+        android:layout_above="@+id/gridLayout"
+        android:layout_toRightOf="@+id/Find"
+        android:layout_alignRight="@+id/Score"
+        android:layout_alignEnd="@+id/Score"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/findname"
+        android:text="Professor Densmore"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  "
+        android:id="@+id/textView3"
+        android:layout_below="@+id/findname"
+        android:layout_toRightOf="@+id/Score"
+        android:layout_toEndOf="@+id/Score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/time"
+        android:password="false"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                 "
+        android:id="@+id/textView5"
+        android:textSize="30dp"
+        android:layout_below="@+id/findname"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  "
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Find"
+        android:layout_toEndOf="@+id/Find"
+        android:textSize="15dp" />
+
+</RelativeLayout>

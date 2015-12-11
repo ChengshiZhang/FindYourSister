@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FindYourSister</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Find Your Sister</string>
+    <string name="ScoreTitle">Score: </string>
+    <string name="FindTitle">Find: </string>
+</resources>
