@@ -1,4 +1,5 @@
 # FindYourSister
+- Members: Chengshi Zhang, Yihao Hu, Zehua Zhao, Tiancheng Liu
 - Team Pao
 - EC 327 Fall 2015
 - Boston University
