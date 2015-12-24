@@ -8,6 +8,10 @@
 #Overview
 Find Your Sister is a fun and addictive game. It is simple, clean and intuitive. The user needs to find the celebrity whose name is given among twelve pictures of different celebrities. 
 
+#Promo Video
+[Find Your Sister Promo Video on Youtube](https://www.youtube.com/watch?v=DcYJP0P9nRI "Super funny promo video!")
+
+
 #Important files and directories
 ##1.Front End:
 FindYourSister/app/src/main/res/layout:
